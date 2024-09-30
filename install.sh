@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # Install Git
-sudo apt install git -y
+sudo apt install curl -y
 
 # Clone the Docker install repository
 git clone https://github.com/dnburgess/dockerinstall.git
