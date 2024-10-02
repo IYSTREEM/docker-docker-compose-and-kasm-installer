@@ -57,14 +57,14 @@ if [ "$choice" -eq 1 ]; then
     sudo ./dockerinstall.sh
     sudo systemctl start docker
     cd /tmp
-    curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.16.0.f2d6e1.tar.gz
-    tar -xf kasm_release_1.16.0.f2d6e1.tar.gz
+    curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.16.0.a1d5b7.tar.gz
+    tar -xf kasm_release_1.16.0.a1d5b7.tar.gz
     sudo bash kasm_release/install.sh
 elif [ "$choice" -eq 2 ]; then
     echo "Installing Kasm Workspace..."
     cd /tmp
-    curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.16.0.f2d6e1.tar.gz
-    tar -xf kasm_release_1.16.0.f2d6e1.tar.gz
+    curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.16.0.a1d5b7.tar.gz
+    tar -xf kasm_release_1.16.0.a1d5b7.tar.gz
     sudo systemctl start docker
     sudo bash kasm_release/install.sh
 elif [ "$choice" -eq 3 ]; then
