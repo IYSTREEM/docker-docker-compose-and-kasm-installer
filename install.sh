@@ -9,6 +9,9 @@ sudo apt-get upgrade -y
 # Install Git
 sudo apt install curl -y
 
+# Install tools that are needed to aviode fuse error
+apt install kmod
+
 # Clone the Docker install repository
 git clone https://github.com/dnburgess/dockerinstall.git
 
