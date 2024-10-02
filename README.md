@@ -29,3 +29,6 @@ Exception: Error: Seed alembic_version: (fce372e8702c) does not match expected (
 ```
 
 update the links according to the https://kasmweb.com/docs/latest/index.html. thanks
+
+
+credits to [shadow](https://discord.com/users/1116705678745141339) for the code
