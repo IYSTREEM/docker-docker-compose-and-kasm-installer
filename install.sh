@@ -4,7 +4,14 @@
 # ANSI escape code to reset text color
 
 # Echo the ASCII art with blue color
-
+echo "     "
+echo "     "
+echo "     "
+echo "     "
+echo "     "
+echo "     "
+echo "     "
+echo "     "
 echo "8888888 Y88b   d88P  .d8888b. 88888888888 8888888b.  8888888888 8888888888 888b     d888 "
 echo "  888    Y88b d88P  d88P  Y88b    888     888   Y88b 888        888        8888b   d8888 "
 echo "  888     Y88o88P   Y88b.         888     888    888 888        888        88888b.d88888 "
@@ -13,6 +20,13 @@ echo "  888       888         "Y88b.    888     8888888P"  888        888       
 echo "  888       888            888    888     888 T88b   888        888        888  Y8P  888 " 
 echo "  888       888     Y88b  d88P    888     888  T88b  888        888        888       888 "
 echo "8888888     888       Y8888P      888     888   T88b 8888888888 8888888888 888       888 "
+
+echo "     "
+echo "     "
+echo "     "
+echo "     "
+echo "     "
+echo "     "
 
 
 #!/bin/bash
@@ -23,6 +37,8 @@ echo "1) Install Docker and Docker Compose with Kasm Workspace (Full install)"
 echo "2) Only Install Kasm Workspace"
 echo "3) Only Install Docker and Docker Compose"
 
+echo "     "
+echo "     "
 # Read user input
 read -p "Enter your choice (1-3): " choice
 
