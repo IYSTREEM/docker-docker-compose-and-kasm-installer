@@ -28,7 +28,7 @@ Exception: Error: Seed alembic_version: (fce372e8702c) does not match expected (
 [1] Failed to execute script 'server' due to unhandled exception!
 ```
 
-update the links according to the https://kasmweb.com/docs/latest/index.html. thanks
+update the links according to the https://kasmweb.com/docs/latest/index.html. thanks (send a pr request too)
 
 
 
