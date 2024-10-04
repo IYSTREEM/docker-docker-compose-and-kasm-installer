@@ -58,8 +58,7 @@ if [ "$choice" -eq 1 ]; then
     sudo apt-get update
     sudo apt-get upgrade -y
     sudo apt install curl -y
-    sudo apt install kmod
-    sudo apt install fuse
+    sudo apt install kmod -y
     git clone https://github.com/dnburgess/dockerinstall.git
     cd dockerinstall
     chmod +x dockerinstall.sh
