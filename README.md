@@ -1,4 +1,4 @@
-# docker-docker-compose-and-kasm-installer
+# docker-docker-compose-and-kasm-installer (for debian based systems)
 
 Make it executable: 
 ```
