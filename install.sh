@@ -59,10 +59,10 @@ if [ "$choice" -eq 1 ]; then
     sudo apt-get upgrade -y
     sudo apt install curl -y
     sudo apt install kmod -y
-    sudo apt install apt-transport-https ca-certificates curl software-properties-common
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-    sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-    apt-cache policy docker-ce
+    git clone https://github.com/dnburgess/dockerinstall.git
+    cd dockerinstall
+    chmod +x dockerinstall.sh
+    sudo ./dockerinstall.sh
     sudo systemctl start docker
     cd /tmp
     curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.16.0.a1d5b7.tar.gz
@@ -87,12 +87,11 @@ elif [ "$choice" -eq 3 ]; then
     echo "############################################"
     echo "     "
     echo "     "
-    sudo apt install apt-transport-https ca-certificates curl software-properties-common
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-    sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-    apt-cache policy docker-ce
+    git clone https://github.com/dnburgess/dockerinstall.git
+    cd dockerinstall
+    chmod +x dockerinstall.sh
+    sudo ./dockerinstall.sh
     sudo systemctl start docker
 else
     echo "Invalid choice. Please enter chose between 1-3."
 fi
-
