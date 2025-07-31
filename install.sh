@@ -1,9 +1,5 @@
 #!/bin/bash
 
-
-# ANSI escape code to reset text color
-
-# Echo the ASCII art with blue color
 echo "     "
 echo "     "
 echo "     "
