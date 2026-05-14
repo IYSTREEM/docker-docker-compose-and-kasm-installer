@@ -71,11 +71,13 @@ elif [ "$choice" -eq 2 ]; then
     echo "#################################"
     echo "     "
     echo "     "
+
     cd /tmp
     curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.17.0.7f020d.tar.gz
     tar -xf kasm_release_1.17.0.7f020d.tar.gz
     sudo systemctl start docker
     sudo bash kasm_release/install.sh
+    
 
 elif [ "$choice" -eq 3 ]; then
     echo "     "
